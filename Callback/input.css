@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .dataContainer-style{
+        @apply bg-slate-50 border-violet-500 rounded-lg shadow-2xl shadow-violet-600 text-slate-600  text-center px-7 py-4 w-2/4 h-3/4 overflow-y-auto scroll-mr-1 bg-cover;
+    }
+}
